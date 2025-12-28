@@ -1,0 +1,23 @@
+{
+  "name": "claude-zuma",
+  "version": "1.0.0",
+  "description": "Classic Zuma-style puzzle game built with TypeScript and HTML5 Canvas",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "keywords": ["zuma", "game", "puzzle", "canvas", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitest": "^1.1.0",
+    "@playwright/test": "^1.40.1"
+  }
+}
